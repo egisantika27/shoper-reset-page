@@ -1,0 +1,6 @@
+# Folder dependensi
+node_modules/
+
+# File environment lokal
+.env
+.env.local
