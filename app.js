@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
             messageDiv.textContent = `Error: ${error.message}`;
             messageDiv.classList.add('error');
         } else {
-            messageDiv.textContent = 'Kata sandi Anda berhasil diperbarui! Anda bisa menutup halaman ini.';
+            messageDiv.textContent = 'Kata sandi Anda berhasil diperbarui! Silahkan login dengan kata sandi terbaru.';
             messageDiv.classList.add('success');
             form.reset(); // Mengosongkan form setelah berhasil
         }
